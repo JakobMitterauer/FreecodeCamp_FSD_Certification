@@ -1,7 +1,42 @@
 body{
     background-color: #f4f4f4;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align:center;
+    
 }
 
+.color-grid{
+    margin: auto;
+    width: 80%;
+}
 .color-box{
+    width:80px;
+    height:80px;
+    margin: 0 30px;
+    border-radius:8px;
     display:inline-block;
+}
+
+.color1{
+
+    background-color: #123524;
+
+}
+
+.color2{
+    background-color: rgb(62, 123, 39);
+}
+
+.color3{
+    background-color: yellowgreen;
+}
+
+.color4{
+    background-color: hsl(44,58.4%,84.9%);
+}
+
+.color5{
+    background-color: black;
 }
