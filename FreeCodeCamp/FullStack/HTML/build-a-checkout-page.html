@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.pixabay.com/photo/2019/08/08/16/56/cpu-4393383_960_720.jpg" alt="CPU Intel i5-9400F">
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <div>
+                <label for="card-name" name="card-name-label">Name on Credit Card</label>
+                <input 
+                    type="text"
+                    id="card-name"
+                    name="card-name"
+                    placeholder="Firstname Lastname"
+                    aria-required="true"
+                    tabindex="-1"
+                    required/>
+            </div>
+            <div>
+                <label for="card-number" name="card-number-label">Card Number</label>
+                <input 
+                    type="text"
+                    id="card-number"
+                    name="card-number"
+                    placeholder="1234567891112131"
+                    minlength="16"
+                    maxlength="16"
+                    aria-required="true"
+                    tabindex="-1"
+                    required/>
+            </div>
+            <div>
+                <label for="card-date" name="card-date-label">Card Expiry Date</label>
+                <input 
+                    type="text"
+                    id="card-date"
+                    name="card-date"
+                    placeholder="MM/YY"
+                    aria-required="true"
+                    tabindex="-1"
+                    required/>
+            </div>
+            <div>
+                <label for="card-ccv" name="card-ccv-label">CCV</label>
+                <input type="text" 
+                id="card-ccv" 
+                name="card-ccv" 
+                placeholder="123" 
+                minlength="3" 
+                maxlength="3"
+                aria-required="true"
+                tabindex="-1"
+                required
+                />
+            </div>
+    </section>
+</body>
+
+</html>

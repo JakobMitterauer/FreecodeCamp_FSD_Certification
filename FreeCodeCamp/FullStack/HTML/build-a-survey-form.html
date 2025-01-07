@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Jakob's Survey Form</h1>
+      <p id="description">Thank you for your feedback</p>
+      <form id="survey-form">
+        <section>
+          <label for="name" id="name-label">Name (required):</label>
+          <input id="name" name="name" type="text" required placeholder="Firstname Lastname" />
+        </section>
+        <section>
+          <label for="email" id="email-label">Email (required):</label>
+          <input id="email" name="email" type="email" required placeholder="example@test.com"/>
+        </section>
+        <section>
+          <label for="number" id="number-label">Age (optional):</label>
+          <input id="number" name="age" type="number" min="3" max="99" placeholder="26" />
+        </section>
+        <section>
+          <label for="occupation" id="occupation-label">Current Occupation</label>
+          <select id="dropdown">
+            <option id="student">Student</option>
+            <option id="employee">Employee</option>
+            <option id="self-employed">Self-Employed</option>
+          </select>
+        </section>
+        
+
+        <p>Do you know Jakob personally?</p>
+        <input type="radio" name="relation" id="yes-option" value="yes">Yes</input>
+        <input type="radio" name="relation" id="no-option" value="no">No</input>
+
+
+        <p>What do you think Jakob likes the most?</p>
+        <input type="checkbox" name="tamina" id="tamina" value="tamina" checked>Tamina</input>
+        <input type="checkbox" name="f1" id="f1" value="f1">F1</input>
+        <input type="checkbox" name="gaming" id="gaming" value="gaming">Gaming</input>
+        <input type="checkbox" name="food" id="food" value="food">Food</input>
+        <p></p>
+        <label for="comments">Any other commments?</label>
+        <p></p>
+        <textarea id="comments" cols="30" rows="10" placeholder="Jakob is great"></textarea>
+        <p></p>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </header>
+  </body>
+</html>
