@@ -10,9 +10,15 @@ body{
   margin-top:100px;
   margin-left:50px;
   display:flex;
-  justify-items:center;
+  justify-content:center;
   flex-wrap: wrap;
   gap:20px;
+
+}
+
+#playing-cards::after{
+  content:"";
+  width: 910px;
 
 }
 .red{
@@ -31,7 +37,7 @@ body{
 }
 
 .left{
-  align-self: start;
+  align-self: flex-start;
 }
 
 .middle{
@@ -51,13 +57,14 @@ body{
  
   
 }
+
 .large{
   height:0.9em;
 }
 
 
 .right{
-  align-self: end;
+  align-self: flex-end;
 }
 
 .flipped{
