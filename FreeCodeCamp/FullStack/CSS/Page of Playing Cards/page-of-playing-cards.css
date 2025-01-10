@@ -18,15 +18,16 @@ body{
 
 #playing-cards::after{
   content:"";
-  width: 910px;
+  width: 790px;
 
 }
 .red{
   color:red;
 }
 .card{
+  
   display:flex;
-  padding:5px 20px;
+  padding:10px 10px;
   min-width: 250px;
   max-width: 250px;
   height: 350px;
@@ -34,10 +35,12 @@ body{
   background-color: white;
   text-align:center;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .left{
   align-self: flex-start;
+  line-height:0.8em;
 }
 
 .middle{
@@ -65,6 +68,7 @@ body{
 
 .right{
   align-self: flex-end;
+  line-height: 0.8em;
 }
 
 .flipped{
