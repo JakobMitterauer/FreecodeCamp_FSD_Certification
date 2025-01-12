@@ -1,0 +1,18 @@
+
+
+/*Useful Snippets discussed in the FreeCodeCamp courses*/
+
+/* Removing sr-only class elements from page view but keep them available for screenreaders */
+
+span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    position:absolute;
+    padding: 0;
+    margin: -1px;
+  }
