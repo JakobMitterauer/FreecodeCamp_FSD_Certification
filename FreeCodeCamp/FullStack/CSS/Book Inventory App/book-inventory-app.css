@@ -7,15 +7,15 @@ thead{
     background-image: linear-gradient(rgb(209, 225, 255),rgb(134, 176, 255));
     height: 1.5em;
 }
-.read{
+tr[class="read"]{
     background-image: linear-gradient(rgb(203, 255, 195), rgb(158, 255, 167))
 }
 
-.to-read{
+tr[class="to-read"]{
     background-image: linear-gradient(rgb(222, 222, 222), rgb(199, 199, 199))
 }
 
-.in-progress{
+tr[class="in-progress"]{
     background-image: linear-gradient(rgb(255, 240, 220),rgb(255, 205, 141))
 }
 
@@ -78,31 +78,30 @@ span[class^="rate"]{
 
 }
 
-span[class^="rate"] span{
+span[class^="rate"] > span{
     
     border: solid 0.1em gray;
     border-radius: 1em;
     margin:  0.1em;
-    min-height: 20px;
+    height: 20px;
     max-height: 20px;
-    min-width: 20px;
+    width: 20px;
     max-width:20px;
     background-color: white;
 }
 
-span[class~="one"] span:first-child{
+span[class~="one"] :first-child{
 
     background-image: linear-gradient(rgb(239, 255, 100),rgb(255, 230, 0));
 }
 
-span[class~="two"] span:first-child,
-span[class~="two"] span:nth-child(2){
+span[class~="two"] :first-child,
+span[class~="two"] :nth-child(2){
 
     background-image: linear-gradient(rgb(239, 255, 100),rgb(255, 230, 0));
 }
-span[class~="three"] span:first-child,
-span[class~="three"] span:nth-child(2),
-span[class~="three"] span:nth-child(3){
+
+span[class~="three"] span{
 
     background-image: linear-gradient(rgb(239, 255, 100),rgb(255, 230, 0));
 }
