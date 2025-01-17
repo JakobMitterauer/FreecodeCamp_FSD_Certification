@@ -15,7 +15,7 @@ html{
         position:fixed;
         height: 100%;
         left:0;
-        width: 20%;
+        width: 30%;
         overflow-y: scroll;
     }
 
@@ -23,10 +23,29 @@ html{
         padding: 20px;
         position: relative;
         top:0;
-        left: 20%;
-        width: 80%;
+        left: 30%;
+        width: 70%;
+    }
+    .nav-link{
+    
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 1.5em;
+        height: 2.5em;
+        border-bottom: solid black 1px;
+        text-decoration: none;
+        color:black;
+        container-name: nav-link;    
     }
 }
+
+@media (max-width: 1200px){
+    .nav-link{
+        font-size: 1.3em;
+    }
+}
+
 @media (max-width: 999px)
 {
     #navbar{
@@ -54,17 +73,13 @@ html{
     padding: 10px 20px;
     font-size: 2em;
     border-bottom: black solid;
+    text-align: center;
 }
-.nav-link{
-    padding: 10px 20px;
-    display:block;
-    font-size: 1.5em;
-    height: 3em;;
-    border-bottom: solid black 1px;
-    text-decoration: none;
-    color:black;
-    
-}
+
+
+
+
+
 
 .nav-link:hover{
     background-color: rgb(240, 240, 240);
