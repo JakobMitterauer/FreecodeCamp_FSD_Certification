@@ -6,12 +6,13 @@
     display:grid;
     grid-template-areas: 
     "title title title"
-    "feature-article feature-article image"
-    "small-article1 small-article2 image";
+    "feature-article feature-article cover-image"
+    "small-article1 small-article2 cover-image";
     grid-template-columns: repeat(3,fr);
     grid-template-rows: auto 1fr 1fr;
-    gap: 5px;
-
+    gap: 10px;
+    width: 80vw;
+    margin: 0 auto;
 
 }
 
@@ -51,7 +52,7 @@ p{
 
 .cover-image{
     
-    grid-area: image;
+    grid-area: cover-image;
     background-color: rgb(229, 231, 233);
     padding: 60px 10px;
     
@@ -76,5 +77,5 @@ img{
 .small-article2{
     background-color: var(--small-article-color);
     padding: 10px 5px;
-    
+
 }
