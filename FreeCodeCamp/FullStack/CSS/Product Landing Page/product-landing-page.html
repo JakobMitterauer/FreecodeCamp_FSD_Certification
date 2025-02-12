@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="product-landing-page.css";>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+<body>
+    <header id="header">
+        <div id="logo">
+            <img id="header-img" src="schuh-logo.png">
+        </div>
+        <nav id="nav-bar">
+            <ul id="nav-bar-list">
+                <li class="nav-bar-item"><a class="nav-link" href="#benefits">Benefits</a></li>
+                <li class="nav-bar-item"><a class="nav-link" href="#add-campaign">Add Campaign</a></li>
+                <li class="nav-bar-item"><a class="nav-link" href="#shop">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="form" action=" https://www.freecodecamp.org/email-submit" method="post">
+            <label for="email" name="email-label" id="email-label">Subscribe to our Newsletter!</label>
+            <input type="email" id="email" name="email" placeholder="example@domain.com"/>
+            <input type="submit" id="submit" />
+        </form>
+        <h1>The only running shoes you'll ever need</h1>
+        <div id="benefits">
+            <h2>Your Benefits</h2>
+            <div class="benefit price">
+                <i class="fa-solid fa-percentage"></i>
+                <div>
+                    <h3>Popular Brands for the best price</h3>
+                    <p>We sell the most popular brands of running shoes and offer them for fair prices</p>
+                </div>
+            </div>
+            <div class="benefit shipping">
+                <i class="fa-solid fa-truck"></i>
+                <div>
+                    <h3>Fast Shipping</h3>
+                    <p>We make sure you receive your shoes as soon as 2 working days. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="benefit quality">
+                <i class="fa-solid fa-star"></i>
+                <div>
+                    <h3>Quality Assurance</h3>
+                    <p>For every purchase you make, we will ensure there are no damages or faults</p>
+                </div>
+            </div>
+        </div>
+        <div id="add-campaign">
+            <h2>Our best selling Shoes</h2>
+            <div class="video">
+                <iframe id="video" width="600" height="340" src="https://www.youtube.com/embed/tUC7JuymNgQ" title="ASICS Running | GEL-KAYANO™ 30  | Stability never felt better." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="600" height="340" src="https://www.youtube.com/embed/MLreGvtbEdE" title="On | The new Cloudsurfer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="600" height="340" src="https://www.youtube.com/embed/kB0rnIifAjE" title="Nike Zoom Pegasus Turbo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <h2>Our Premium selection</h2>
+        <div id="shop">
+            <div class="shoe-card">
+                <img class="shoe-img" src="https://www.running-point.at/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw37b70d0d/images/020/164/05024000_0_1.jpg?q=80&sw=1000">
+                <h3>Asics GEL-KAYANO</h3>
+                <p>199.99€</p>
+            </div>
+            <div class="shoe-card">
+                <img class="shoe-img" src="https://www.running-point.at/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw110a0270/images/020/168/06153000_0_1.jpg?q=80&sw=1000">
+                <h3>Asics GEL-KAYANO</h3>
+                <p>199.99€</p>
+            </div>
+            <div class="shoe-card">
+                <img class="shoe-img" src="https://www.running-point.at/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0f3e90c0/images/020/175/06458000_0_1.jpg?q=80&sw=1000">
+                <h3>Asics GEL-KAYANO</h3>
+                <p>199.99€</p>
+            </div>
+            <div class="shoe-card">
+                <img class="shoe-img" src="https://www.running-point.at/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd6f310c5/images/194/168/00063000_0_1.jpg?q=80&sw=1000">
+                <h3>ON Cloudsurfer</h3>
+                <p>119.99€</p>
+            </div>
+            <div class="shoe-card">
+                <img class="shoe-img" src="https://www.running-point.at/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw51d8e0cf/images/194/168/00064000_0_1.jpg?q=80&sw=1000">
+                <h3>ON Cloudsurfer</h3>
+                <p>119.99€</p>
+            </div>
+            <div class="shoe-card">
+                <img class="shoe-img" src="https://www.running-point.at/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa45e4cb7/images/004/175/17909000_0_1.jpg?q=80&sw=1000">
+                <h3>NIKE Pegasus</h3>
+                <p>109.99€</p>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <nav id="footer-nav-bar">
+            <ul id="nav-bar-list">
+                <li class="footer-nav-bar-item"><a class="footer-nav-link" href="https://www.freecodecamp.org/">Privacy</a></li>
+                <li class="footer-nav-bar-item"><a class="footer-nav-link" href="https://www.freecodecamp.org/">Terms</a></li>
+                <li class="footer-nav-bar-item"><a class="footer-nav-link" href="https://www.freecodecamp.org/">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Copyright 2025, Jakob Mitterauer</p>
+    </footer>
+</body>
+</html>
