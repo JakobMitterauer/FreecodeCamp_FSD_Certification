@@ -35,14 +35,16 @@ h2{
 h3{
     font-size: 24px;
 }
+
 #header{
 
     margin: 0;
     padding-right: 5%;
-    position: top;
+    position: fixed;
+    top:0;
     left:0;
     display:flex;
-    background-color: var(--se);
+    background-color: var(--main-color1);
     border-bottom: 2px solid var(--secondary-color1);
     justify-content:space-evenly;
     align-items: center;
@@ -162,7 +164,7 @@ form{
     font-size: 2.5rem;
 }
 
-#submit-button{
+#submit{
     width: 30%;
     min-width: 200px;
     height: 3rem;
